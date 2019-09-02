@@ -1,0 +1,24 @@
+.tree_node_icon_container{
+    display: none;
+    margin-left: 10px;
+    .tree_node_icon{
+        margin-right: 10px;
+    }
+}
+.tree_node:hover{
+    .tree_node_icon_container{
+        display: inline-block;
+    }
+}
+.assets_tree{
+    :global{
+        .ant-tree-treenode-selected{
+            span:nth-child(2){
+                span{
+                    display: inline-block;
+                }
+                
+            }
+        }
+    }
+}

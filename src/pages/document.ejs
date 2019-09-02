@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+  <title>Ant Design Pro</title>
+  <link rel="icon" href="<%= context.publicPath %>favicon.png" type="image/x-icon">
+  <% if (process.env.NODE_ENV == 'development') { %>
+  <script src="/js/config.development.js"></script>
+  <% } %>
+  <% if (process.env.NODE_ENV != 'development') { %>
+  <script src="<%= context.publicPath %>js/config.production.js"></script>
+  <% } %>
+  <!-- <script src="<%= context.publicPath %>js/data-set.min.js"></script> -->
+</head>
+
+<body>
+  <noscript>Sorry, we need js to run correctly!</noscript>
+  <div id="root"></div>
+</body>
+
+</html>

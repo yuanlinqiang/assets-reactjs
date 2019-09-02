@@ -1,0 +1,9 @@
+#!/bin/sh
+# 产品名称
+PRODUCT_NAME=sp-asset
+# 产品版本
+PRODUCT_VERSION=V1.0
+# 打包名称
+DEPLOY_TAR_NAME=$PRODUCT_NAME$PRODUCT_VERSION
+#依赖的公共服务
+BASIC_SERVICE_FULL_NAME=()

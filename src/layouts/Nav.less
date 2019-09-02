@@ -1,0 +1,57 @@
+/*导航样式*/
+.nav_container{
+	:global{
+		aside{
+			flex: 0 0 64px !important;
+		    max-width: 64px !important;
+		    min-width: 64px !important;
+		    width: 64px !important;
+		    box-shadow: none;
+		    .ant-layout-sider-children{
+		    	background: #1c8ef0;
+		    	.ant-menu-dark{
+		    		background: #1c8ef0;
+		    		padding: 0px !important;
+		    		.ant-menu-item:hover{
+		    			background-color: #ececec !important;
+				    	a{
+				    		color: #1890ff;
+				    	}
+		    		}
+		    	}
+		    	.ant-menu-item{
+			    	height: 61px !important;
+			    	padding: 0 !important;
+			    	margin-top: 0 !important;
+			    	margin-bottom: 2px !important;
+			    	a{
+			    		display: flex;
+			    		flex-direction: column;
+			    		padding: 10px 0 5px;
+			    		text-align: center;
+			    		font-size: 12px;
+			    		width: 64px;
+			    		color: #bfdcf5;
+			    		.anticon{
+			    			font-size: 2em;
+			    			margin: 0;
+			    		}
+			    		span{
+			    			display: inline-block;
+			    			line-height: 15px;
+			    			margin-top: 5px;
+			    			width: 100%;
+			    			font-weight: 500;
+			    		}
+			    	}
+			    }
+			    .ant-menu-item-selected{
+			    	background-color: #ececec !important;
+			    	a{
+			    		color: #1890ff;
+			    	}
+			    }
+		    }
+		}
+	};
+}
