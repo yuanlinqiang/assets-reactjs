@@ -63,7 +63,7 @@
     "husky": "^1.2.0",
     "lint-staged": "^8.1.0",
     "prettier": "1.15.2",
-    "stylelint": "^9.8.0",
+    "stylelint": "^15.10.1",
     "stylelint-config-prettier": "^4.0.0",
     "stylelint-config-standard": "^18.0.0",
     "umi": "^2.3.0-0",
